@@ -383,7 +383,7 @@ class Game {
           if (enemy.pos.dist(bullet.pos) <= BULLET_RADIUS + ENEMY_RADIUS) {
             enemy.dead = true;
             bullet.lifetime = 0.0;
-            score += ENEMY_KILL_POINT;
+            this.score += ENEMY_KILL_POINT;
             particleBurst(this.particles, enemy.pos, ENEMY_COLOR);
             this.player.health = Math.min(this.player.health + HEALTH_PER_KILL, PLAYER_MAX_HEALTH);
           }
