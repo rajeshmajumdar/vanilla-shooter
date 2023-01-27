@@ -7,5 +7,5 @@ $ chromium index.html
 ```
 
 ### Todo
-[ ] [FIX] Player goes beyond the screen.
-[ ] Implement restart functionality.
+- [FIX] Player goes beyond the screen.
+- Implement restart functionality.
