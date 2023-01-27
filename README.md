@@ -6,6 +6,6 @@ Simple shooting game written in Vanilla JS
 $ chromium index.html
 ```
 
-### Known errors
-- Game breaks on github-pages.
-  - Idk why it breaks on github-pages, works fine on the local machine though.
+### Todo
+[ ] [FIX] Player goes beyond the screen.
+[ ] Implement restart functionality.
